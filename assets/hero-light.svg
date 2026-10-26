@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="t d">
+  <title id="t">Huy, full-stack developer</title>
+  <desc id="d">Terminal window. whoami: Huy, full-stack developer, Ho Chi Minh City, Vietnam. Stack: React, Go, Laravel, Flutter, AWS, AI agents. Principle: production systems, not prototypes. Contract, migration, UI, tests, deploy. Status: open for work.</desc>
+  <style>
+    :root { --bg:#ffffff; --panel:#f6f8fa; --bar:#eaeef2; --line:#d0d7de; --fg:#1f2328; --muted:#59636e; --accent:#1a7f37; --prompt:#9a6700; }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 17px; fill: var(--fg); }
+    .muted { fill: var(--muted); }
+    .accent { fill: var(--accent); }
+    .prompt { fill: var(--prompt); font-weight: 700; }
+    .name { font-size: 26px; font-weight: 700; }
+    .bar { font-size: 13px; }
+    .type { animation: type .7s steps(18, end) both; }
+    .show { animation: show .01s linear both; }
+    .cursor { animation: blink 1s steps(1, end) infinite; }
+    @keyframes type { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .type, .show, .cursor { animation: none; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="719" height="339" rx="12" style="fill:var(--panel);stroke:var(--line)"/>
+  <path d="M0.5 40.5 V12.5 A12 12 0 0 1 12.5 0.5 H707.5 A12 12 0 0 1 719.5 12.5 V40.5 Z" style="fill:var(--bar)"/>
+  <line x1="0.5" y1="40.5" x2="719.5" y2="40.5" style="stroke:var(--line)"/>
+  <circle cx="24" cy="20.5" r="6" style="fill:var(--line)"/>
+  <circle cx="44" cy="20.5" r="6" style="fill:var(--line)"/>
+  <circle cx="64" cy="20.5" r="6" style="fill:var(--line)"/>
+  <text class="bar muted" x="360" y="25" text-anchor="middle">huy@hcmc: ~</text>
+  <circle cx="584" cy="20.5" r="4" style="fill:var(--accent)"/>
+  <text class="bar accent" x="594" y="25">open for work</text>
+
+  <g transform="translate(32 80)">
+    <text class="type" style="animation-delay:.2s"><tspan class="prompt">$ </tspan>whoami</text>
+    <text class="name show" y="34" style="animation-delay:1s">Huy</text>
+    <text class="muted show" x="62" y="34" style="animation-delay:1s">full-stack developer · Ho Chi Minh City, VN</text>
+
+    <text class="type" y="80" style="animation-delay:1.4s"><tspan class="prompt">$ </tspan>cat stack.txt</text>
+    <text class="show" y="108" style="animation-delay:2.2s">React · Go · Laravel · Flutter · AWS · <tspan class="accent">AI agents</tspan></text>
+
+    <text class="type" y="154" style="animation-delay:2.6s"><tspan class="prompt">$ </tspan>cat principle.txt</text>
+    <text class="show" y="182" style="animation-delay:3.4s">Production systems, not prototypes.</text>
+    <text class="muted show" y="208" style="animation-delay:3.4s">contract → migration → UI → tests → deploy</text>
+
+    <text y="234" class="prompt">$</text>
+    <rect class="cursor" x="22" y="219" width="10" height="19" style="fill:var(--accent)"/>
+  </g>
+</svg>
