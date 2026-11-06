@@ -24,7 +24,7 @@
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,go,laravel,php,fastapi,nodejs&perline=9" alt="React, Next.js, TypeScript, Tailwind, Go, Laravel, PHP, FastAPI, Node.js" /><br />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,go,laravel,php,wordpress,fastapi,nodejs&perline=10" alt="React, Next.js, TypeScript, Tailwind, Go, Laravel, PHP, WordPress, FastAPI, Node.js" /><br />
   <img src="https://skillicons.dev/icons?i=flutter,dart,postgres,mysql,redis,aws,docker,githubactions,gitlab&perline=9" alt="Flutter, Dart, PostgreSQL, MySQL, Redis, AWS, Docker, GitHub Actions, GitLab" />
 </p>
 
@@ -32,6 +32,7 @@
 | --- | --- |
 | **Frontend** | React 18/19, Next.js, TypeScript, MUI, TailwindCSS, Zustand, TanStack Query |
 | **Backend** | Go (Gin, GORM, Wire DI), Laravel, FastAPI, Node/Express |
+| **WordPress & WooCommerce** | Block themes (theme.json, patterns, templates), WooCommerce blocks and Store API, variable products, custom plugins (REST API, custom post types), PHPCS/WPCS, PHPUnit |
 | **Mobile** | Flutter for Android, iOS and Web (bloc, go_router, Dio, freezed) |
 | **Data & real-time** | PostgreSQL + PostGIS, MySQL, Redis Streams, WebSocket, WebRTC (coturn) |
 | **Cloud & DevOps** | AWS (S3, SES, SQS, SNS, CloudFront), Docker, GitHub Actions, GitLab CI |
@@ -59,6 +60,17 @@ Metadata-driven multi-tenant ERP, used as a testbed for building production soft
 - **Workflow:** planner, implementer and independent auditor agents. No agent reviews its own work.
 - **Risk classifier:** sets each task's review level from its actual diff.
 - **Orchestrator CLI (Python):** dependency-aware queue, file locking, checkpointed logs, AI provider failover.
+
+### NOVA · fashion store on WordPress + WooCommerce
+
+`WordPress` `WooCommerce` `PHP 8.3` `Block theme` `PHPUnit` `GitHub Actions`
+
+Premium fashion store for US shoppers: custom block child theme plus a companion plugin. [Live demo](https://spooky-nacho-color.wpcomstaging.com)
+
+- **56 screens:** shop, filters, product pages, cart, checkout, account, wishlist and admin, all on native WooCommerce blocks.
+- **Store logic tested:** per-size stock, no overselling when two shoppers buy the last item, stock returned on cancel.
+- **Editable by the owner:** hero slides, banners with schedule and priority, category photos, all from wp-admin.
+- **Quality:** PHPCS (WordPress standards), PHPUnit, CI on PHP 8.2 to 8.4, one-click demo setup.
 
 ### Real-time quiz platform
 
