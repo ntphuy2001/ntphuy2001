@@ -72,6 +72,17 @@ Premium fashion store for US shoppers: custom block child theme plus a companion
 - **Editable by the owner:** hero slides, banners with schedule and priority, category photos, all from wp-admin.
 - **Quality:** PHPCS (WordPress standards), PHPUnit, CI on PHP 8.2 to 8.4, one-click demo setup.
 
+### WordPress & CMS client sites
+
+`WordPress` `WooCommerce` `Elementor` `WPBakery` `Drupal` `Webflow`
+
+11 client sites delivered. I built:
+
+- **[The SmartThings Blog](https://blog.smartthings.com):** WordPress + Elementor.
+- **[Overdrive IoT](https://overdriveiot.com):** WordPress + WooCommerce store, WPBakery.
+
+Also: [So Spiri](https://www.sospiri.sg), [Baia](https://www.baia.sg), [Superfood Kitchen](http://www.superfoodkitchen.sg), [ilmiri](https://ilmiri.sg), [AIC Stories](https://aic-blog.com), [Halo Solar](https://halosolar.sg), [SingHoldings](https://singholdings.com), [WorkFlow](https://workflow.com.vn), [FlowX](https://flowx.com.vn).
+
 ### Real-time quiz platform
 
 `Laravel Reverb` `WebSocket` `React` `Redis`
